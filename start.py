@@ -29,7 +29,7 @@ with playground:
             # Select
             font = st.selectbox(
                 "Which font would you like to use?",
-                ["Default"] + textfonts[:] + mathfonts[:]
+                ["text"] + textfonts[:] + mathfonts[:]
             )
 
             color = st.selectbox(
